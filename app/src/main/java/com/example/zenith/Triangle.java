@@ -1,11 +1,11 @@
 package com.example.zenith;
 
-public abstract class Shape {
+public class Triangle extends Shape{
     private int x;
     private int y;
-    private String color = "brown";
 
-    public Shape(int x, int y) {
+    public Triangle() {
+        super(x, y);
         this.x = x;
         this.y = y;
     }
